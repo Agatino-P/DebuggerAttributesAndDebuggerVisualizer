@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebuggerAttributes", "DebuggerAttributes\DebuggerAttributes.csproj", "{48DA95BA-1835-41E4-B150-F7A37D682C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeDebugVisualizer", "PrototypeDebugVisualizer\PrototypeDebugVisualizer.csproj", "{A4B57280-BC56-49FB-90CC-31987E74D65D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48DA95BA-1835-41E4-B150-F7A37D682C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DA95BA-1835-41E4-B150-F7A37D682C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DA95BA-1835-41E4-B150-F7A37D682C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DA95BA-1835-41E4-B150-F7A37D682C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B57280-BC56-49FB-90CC-31987E74D65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B57280-BC56-49FB-90CC-31987E74D65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B57280-BC56-49FB-90CC-31987E74D65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B57280-BC56-49FB-90CC-31987E74D65D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F053990-C5B1-416F-A514-A14950517350}
+	EndGlobalSection
+EndGlobal
