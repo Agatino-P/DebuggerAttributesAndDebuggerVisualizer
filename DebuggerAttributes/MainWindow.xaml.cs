@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xml.Linq;
 
 namespace DebuggerAttributes
 {
@@ -32,6 +33,9 @@ namespace DebuggerAttributes
             WannaInspect wi = new WannaInspect();
             IEnumerable<int> iei = wi.Numbers;
             int a = 12;
+
+            var x = new XElement("Pippo", "pippo");
+            string s = x.ToString();
             ProtoypeVisualizer.TestShowVisualizer(2);
         }
     }
